@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание №4</title>
+</head>
+
+<body>
+    
+    <form>
+        <fieldset>
+            <legend>Данные о монете для справочника нумизмата</legend>
+
+            <p><label>Страна</label>
+                <input required placeholder="Введите cтрану" type="text" id="strana"></p>
+
+            <p><label>Номинал</label>
+                <input required placeholder="Введите номинал" type="number" id="nominal"></p>
+
+            <p><label> Год выпуска </label>
+                <input required placeholder="Введите год" type="number" name="year"></p>
+    
+            <p><label> Количество выпущенных монет </label>
+                <input required placeholder="Введите количество" type="number" name="kolvo"></p>
+
+            <p><label> Особенности </label>
+                <input required placeholder="Введите особенности" type="text" name="osob"></p>
+
+        </fieldset>
+
+        <label">Отправить данные: </label>
+            <input type="submit" value="Отправить">
+
+        <p><label>Очистить данные: </label>
+	    	<input type="reset" value="Очистить"></p>
+    </form>
+
+</body>
+</html>
